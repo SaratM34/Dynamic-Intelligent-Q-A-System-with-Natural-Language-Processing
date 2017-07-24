@@ -31,6 +31,9 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-mllib" % "1.6.1",
 "edu.stanford.nlp" % "stanford-corenlp" % "3.6.0",
 "edu.stanford.nlp" % "stanford-corenlp" % "3.6.0" classifier "models"
+"edu.stanford.nlp" % "stanford-parser" % "3.6.0",
+"com.google.protobuf" % "protobuf-java" % "2.6.1"
+
 )
 
 
